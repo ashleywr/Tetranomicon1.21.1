@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "oresabovediamonds"
+    }
+  ],
   "type": "minecraft:smithing_transform",
   "base": {
     "item": "oresabovediamonds:black_opal"
@@ -7,7 +13,7 @@
     "item": "minecraft:netherite_ingot"
   },
   "result": {
-    "item": "tetranomicon:netherite_opal"
+    "id": "tetranomicon:netherite_opal"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"

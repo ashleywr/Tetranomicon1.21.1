@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "betternether"
+    }
+  ],
   "type": "minecraft:smithing_transform",
   "base": {
     "item": "betternether:cincinnasite_ingot"
@@ -7,7 +13,7 @@
     "item": "minecraft:diamond"
   },
   "result": {
-    "item": "tetranomicon:cincinnasite_diamond"
+    "id": "tetranomicon:cincinnasite_diamond"
   },
   "template": {
     "item": "betternether:cincinnasite_diamond_upgrade_smithing_template"

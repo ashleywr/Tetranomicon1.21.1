@@ -20,7 +20,7 @@
     ],
     "material": {
         "items": [
-            "alexsmobs:cachalot_whale_horn"
+            "alexsmobs:cachalot_whale_tooth"
         ]
     },
     "requiredTools": {
@@ -28,7 +28,7 @@
     },
     "conditions": [
         {
-            "type": "forge:mod_loaded",
+            "type": "neoforge:mod_loaded",
             "modid": "alexsmobs"
         }
     ]

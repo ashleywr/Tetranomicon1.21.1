@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "betternether"
+    }
+  ],
   "type": "minecraft:smithing_transform",
   "base": {
     "item": "betternether:nether_ruby"
@@ -7,7 +13,7 @@
     "item": "minecraft:sculk_catalyst"
   },
   "result": {
-    "item": "tetranomicon:flaming_ruby"
+    "id": "tetranomicon:flaming_ruby"
   },
   "template": {
     "item": "betternether:flaming_ruby_upgrade_smithing_template"
